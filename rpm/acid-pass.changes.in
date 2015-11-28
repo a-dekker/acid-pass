@@ -8,5 +8,7 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Sun Jun 14 2015 Arno Dekker <jack.tar@example.com> 0.0.1-0
+* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-0
 - Initial version
+* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-1
+- Do not show forgotten networks
