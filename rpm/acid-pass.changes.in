@@ -12,3 +12,5 @@
 - Initial version
 * Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-1
 - Do not show forgotten networks
+* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-2
+- Added show/hide all passwords option
