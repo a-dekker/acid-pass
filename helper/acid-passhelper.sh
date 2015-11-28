@@ -10,11 +10,10 @@ do
         break
     fi
     PASSPHRASE=$(cat ${FILE} |grep "Passphrase="|sed "s/^Passphrase=//g")
-    if [ -z "${PASSPHRASE}" ]
+    if [ ! -z "${PASSPHRASE}" ]
     then
-        PASSPHRASE="[empty]"
+        printf "${NAME} | "
+        echo "${PASSPHRASE}"
     fi
-    printf "${NAME} | "
-    echo "${PASSPHRASE}"
 done |sort|base64
 fi
