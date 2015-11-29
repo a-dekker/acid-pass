@@ -34,7 +34,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="58"/>
         <source>Wrong code!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel kod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="84"/>
@@ -64,7 +64,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="124"/>
         <source>No stored WiFi connections found</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga lagrade WiFi-anslutningar hittades</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="179"/>
