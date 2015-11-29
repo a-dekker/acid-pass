@@ -55,7 +55,7 @@ Page {
             if (Qt.atob(myset.value("access_code")) === mainapp.password) {
                 loadPass()
             } else if (mainapp.password !== "") {
-                placeholder.text = "Wrong code!"
+                placeholder.text = qsTr("Wrong code!")
             }
             mainapp.fromPasswordPage = false
         }
@@ -121,7 +121,7 @@ Page {
             ViewPlaceholder {
                 id: placeholder
                 enabled: listPass.count === 0
-                text: "No stored WiFi connections found"
+                text: qsTr("No stored WiFi connections found")
             }
             delegate: ListItem {
                 id: listPassItem

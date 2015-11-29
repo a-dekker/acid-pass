@@ -34,6 +34,16 @@ OTHER_FILES += qml/acid-pass.qml \
     helper/acid-passhelper.sh \
     rpm/acid-pass.spec
 
+INSTALLS += translations
+
+TRANSLATIONS = translations/harbour-acid-pass-sv.ts
+
+# only include these files for translation:
+lupdate_only {
+    SOURCES = qml/*.qml \
+              qml/pages/*.qml
+}
+
 #HEADERS += \
 #    src/settings.h \
 #    src/osread.h
