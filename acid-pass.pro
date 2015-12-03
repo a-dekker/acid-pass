@@ -36,7 +36,9 @@ OTHER_FILES += qml/acid-pass.qml \
 
 INSTALLS += translations
 
-TRANSLATIONS = translations/harbour-acid-pass-sv.ts
+TRANSLATIONS = translations/harbour-acid-pass-sv.ts \
+               translations/harbour-acid-pass-ru.ts \
+               translations/harbour-acid-pass-nl.ts
 
 # only include these files for translation:
 lupdate_only {

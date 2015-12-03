@@ -14,3 +14,7 @@
 - Do not show forgotten networks
 * Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-2
 - Added show/hide all passwords option
+* Sun Nov 29 2015 Arno Dekker <jack.tar@example.com> 0.0.1-3
+- Added Swedish language
+* Thu Dec 03 2015 Arno Dekker <jack.tar@example.com> 0.0.1-4
+- Added Russian and Dutch language
