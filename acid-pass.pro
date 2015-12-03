@@ -38,7 +38,8 @@ INSTALLS += translations
 
 TRANSLATIONS = translations/harbour-acid-pass-sv.ts \
                translations/harbour-acid-pass-ru.ts \
-               translations/harbour-acid-pass-nl.ts
+               translations/harbour-acid-pass-nl.ts \
+               translations/harbour-acid-pass-cs_CZ.ts
 
 # only include these files for translation:
 lupdate_only {
