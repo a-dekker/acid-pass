@@ -95,12 +95,12 @@
         <translation>Ange ny 4-siffrig åtkomstkod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="58"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="59"/>
         <source>Enter access code</source>
         <translation>Ange åtkomstkod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="70"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="71"/>
         <source>Your access code</source>
         <translation>Din åtkomstkod</translation>
     </message>

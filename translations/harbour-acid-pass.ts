@@ -95,12 +95,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="58"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="59"/>
         <source>Enter access code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="70"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="71"/>
         <source>Your access code</source>
         <translation type="unfinished"></translation>
     </message>

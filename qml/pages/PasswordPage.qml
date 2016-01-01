@@ -54,6 +54,7 @@ Dialog {
 
             TextField {
                 id: passwordField
+                font.family: text.trim().length > 0 ? 'monospace' : Theme.fontFamily
                 width: parent.width - changePasswordFieldEchoMode.width
                 placeholderText: qsTr("Enter access code")
                 inputMethodHints: Qt.ImhDigitsOnly
@@ -70,13 +71,18 @@ Dialog {
                 label: qsTr("Your access code")
                 echoMode: isHide ? TextInput.Password : TextInput.Normal
                 focus: true
+                focusOutBehavior: -1
             }
 
             IconButton {
                 id: changePasswordFieldEchoMode
-                icon.source: isHide ? "image://theme/icon-m-dialpad" : "image://theme/icon-m-device-lock"
+                icon.height: Theme.iconSizeLarge - Theme.paddingMedium
+                icon.width: Theme.iconSizeLarge - Theme.paddingMedium
+                icon.source: isHide ? "../../icons/eye-open.png" : "../../icons/eye-close.png"
+                icon.opacity: 0.6
                 onClicked: isHide = !isHide
             }
+
         }
     }
 

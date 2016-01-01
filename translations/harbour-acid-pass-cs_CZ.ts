@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>About</name>
     <message>
@@ -95,12 +95,12 @@
         <translation>Nastavte nový čtyřmístný přístupový kód</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="58"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="59"/>
         <source>Enter access code</source>
         <translation>Vložte přístupový kód</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="70"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="71"/>
         <source>Your access code</source>
         <translation>Váš přístupový kód</translation>
     </message>

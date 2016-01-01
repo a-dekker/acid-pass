@@ -8,13 +8,17 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-0
-- Initial version
-* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-1
-- Do not show forgotten networks
-* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-2
-- Added show/hide all passwords option
-* Sun Nov 29 2015 Arno Dekker <jack.tar@example.com> 0.0.1-3
-- Added Swedish language
+* Fir Jan 01 2016 Arno Dekker <jack.tar@example.com> 0.0.1-6
+- Improved login page
+* Thu Dec 03 2015 Arno Dekker <jack.tar@example.com> 0.0.1-5
+- Added Czech language
 * Thu Dec 03 2015 Arno Dekker <jack.tar@example.com> 0.0.1-4
 - Added Russian and Dutch language
+* Sun Nov 29 2015 Arno Dekker <jack.tar@example.com> 0.0.1-3
+- Added Swedish language
+* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-2
+- Added show/hide all passwords option
+* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-1
+- Do not show forgotten networks
+* Sat Nov 28 2015 Arno Dekker <jack.tar@example.com> 0.0.1-0
+- Initial version

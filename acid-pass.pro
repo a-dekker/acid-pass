@@ -17,20 +17,17 @@ CONFIG += sailfishapp
 TEMPLATE = subdirs
 SUBDIRS = src/acid-pass-helper src
 
-#SOURCES += src/acid-pass.cpp \
-#    src/settings.cpp \
-#    src/osread.cpp
-
 OTHER_FILES += qml/acid-pass.qml \
     qml/cover/CoverPage.qml \
     rpm/acid-pass.changes.in \
     rpm/acid-pass.spec \
     translations/*.ts \
     harbour-acid-pass.desktop \
-    harbour-acid-pass.png \
     qml/pages/About.qml \
     qml/pages/MainPage.qml \
     qml/pages/PasswordPage.qml \
+    icons/eye-open.png \
+    icons/eye-close.png \
     helper/acid-passhelper.sh \
     rpm/acid-pass.spec
 
@@ -47,12 +44,11 @@ lupdate_only {
               qml/pages/*.qml
 }
 
-#HEADERS += \
-#    src/settings.h \
-#    src/osread.h
-
 script.files = helper/*
 script.path = /usr/share/harbour-acid-pass/helper
+
+iconeye.files += icons/eye-*.png
+iconeye.path = /usr/share/harbour-acid-pass/icons
 
 icon86.files += icons/86x86/harbour-acid-pass.png
 icon86.path = /usr/share/icons/hicolor/86x86/apps
@@ -66,7 +62,7 @@ icon128.path = /usr/share/icons/hicolor/128x128/apps
 icon256.files += icons/256x256/harbour-acid-pass.png
 icon256.path = /usr/share/icons/hicolor/256x256/apps
 
-INSTALLS += icon86 icon108 icon128 icon256 script
+INSTALLS += icon86 icon108 icon128 icon256 script iconeye
 
 # to disable building translations every time, comment out the
 # following CONFIG line
