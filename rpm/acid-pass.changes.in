@@ -8,7 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Fir Jan 01 2016 Arno Dekker <jack.tar@example.com> 0.0.1-6
+* Thu Jan 07 2016 Arno Dekker <jack.tar@example.com> 0.0.1-7
+- Wifi icon itself clickable and variable
+* Fri Jan 01 2016 Arno Dekker <jack.tar@example.com> 0.0.1-6
 - Improved login page
 * Thu Dec 03 2015 Arno Dekker <jack.tar@example.com> 0.0.1-5
 - Added Czech language

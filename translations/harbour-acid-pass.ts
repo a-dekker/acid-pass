@@ -67,7 +67,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="179"/>
+        <location filename="../qml/pages/MainPage.qml" line="190"/>
         <source>Copy password to clipboard</source>
         <translation type="unfinished"></translation>
     </message>

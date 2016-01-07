@@ -150,7 +150,18 @@ Page {
                 }
                 IconButton {
                     id: hotspotIcon
-                    icon.source: "image://theme/icon-m-wlan-hotspot"
+                    icon.source: echo_mode === 2 ? "image://theme/icon-m-remote-security" : "image://theme/icon-m-wlan-hotspot"
+                    onClicked: {
+                        if (echo_mode === 2) {
+                            listPassModel.set(index, {
+                                                  echo_mode: 0
+                                              })
+                        } else {
+                            listPassModel.set(index, {
+                                                  echo_mode: 2
+                                              })
+                        }
+                    }
                 }
 
                 Label {
