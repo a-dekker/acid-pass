@@ -37,7 +37,7 @@ Page {
             }
             Image {
                 anchors.horizontalCenter: parent.horizontalCenter
-                source: "/usr/share/icons/hicolor/86x86/apps/harbour-acid-pass.png"
+                source: isLandscape ? "/usr/share/icons/hicolor/86x86/apps/harbour-acid-pass.png" : "/usr/share/icons/hicolor/128x128/apps/harbour-acid-pass.png"
             }
             Label {
                 text: qsTr("Version") + " " + version
