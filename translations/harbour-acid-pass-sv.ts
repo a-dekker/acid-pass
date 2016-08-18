@@ -4,27 +4,27 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="21"/>
+        <location filename="../qml/pages/About.qml" line="23"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="24"/>
+        <location filename="../qml/pages/About.qml" line="26"/>
         <source>Info</source>
         <translation>Info</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="43"/>
+        <location filename="../qml/pages/About.qml" line="45"/>
         <source>Version</source>
         <translation>Version</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="48"/>
+        <location filename="../qml/pages/About.qml" line="50"/>
         <source>Shows stored Wi-Fi related passwords</source>
         <translation>Visar lagrade WiFi-relaterade lösenord</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="57"/>
+        <location filename="../qml/pages/About.qml" line="59"/>
         <source>Author</source>
         <translation>Utvecklare</translation>
     </message>
@@ -75,32 +75,37 @@
 <context>
     <name>PasswordPage</name>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="36"/>
-        <source>Save</source>
-        <translation>Spara</translation>
+        <location filename="../qml/pages/PasswordPage.qml" line="49"/>
+        <source>About</source>
+        <translation type="unfinished">Om</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="37"/>
-        <source>Cancel</source>
-        <translation>Avbryt</translation>
+        <location filename="../qml/pages/PasswordPage.qml" line="65"/>
+        <source>Acid-pass</source>
+        <translation type="unfinished">Acid-lösen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="45"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Enter your 4 digit access code</source>
         <translation>Ange din 4-siffriga åtkomstkod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="45"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Set a new 4 digit access code</source>
         <translation>Ange ny 4-siffrig åtkomstkod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="59"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="87"/>
         <source>Enter access code</source>
         <translation>Ange åtkomstkod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="71"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="101"/>
+        <source>Invalid access code!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PasswordPage.qml" line="104"/>
         <source>Your access code</source>
         <translation>Din åtkomstkod</translation>
     </message>

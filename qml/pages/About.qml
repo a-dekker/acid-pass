@@ -5,6 +5,8 @@ Page {
     id: aboutPage
     allowedOrientations: Orientation.Portrait | Orientation.Landscape
                          | Orientation.LandscapeInverted
+    property bool largeScreen: Screen.sizeCategory === Screen.Large
+                               || Screen.sizeCategory === Screen.ExtraLarge
     SilicaFlickable {
         anchors.fill: parent
         contentWidth: parent.width
@@ -22,7 +24,7 @@ Page {
             }
             SectionHeader {
                 text: qsTr("Info")
-                visible: isPortrait
+                visible: isPortrait || largeScreen
             }
             Separator {
                 color: Theme.primaryColor
@@ -37,7 +39,7 @@ Page {
             }
             Image {
                 anchors.horizontalCenter: parent.horizontalCenter
-                source: isLandscape ? "/usr/share/icons/hicolor/86x86/apps/harbour-acid-pass.png" : "/usr/share/icons/hicolor/128x128/apps/harbour-acid-pass.png"
+                source: isLandscape ? (largeScreen ? "/usr/share/icons/hicolor/256x256/apps/harbour-acid-pass.png" : "/usr/share/icons/hicolor/86x86/apps/harbour-acid-pass.png") : (largeScreen ? "/usr/share/icons/hicolor/256x256/apps/harbour-acid-pass.png" : "/usr/share/icons/hicolor/128x128/apps/harbour-acid-pass.png")
             }
             Label {
                 text: qsTr("Version") + " " + version
@@ -55,7 +57,7 @@ Page {
             }
             SectionHeader {
                 text: qsTr("Author")
-                visible: isPortrait
+                visible: isPortrait || largeScreen
             }
             Separator {
                 color: Theme.primaryColor

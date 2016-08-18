@@ -16,6 +16,7 @@ CONFIG += sailfishapp
 
 TEMPLATE = subdirs
 SUBDIRS = src/acid-pass-helper src
+DEPLOYMENT_PATH = /usr/share/$${TARGET}
 
 OTHER_FILES += qml/acid-pass.qml \
     qml/cover/CoverPage.qml \
@@ -62,6 +63,9 @@ icon128.path = /usr/share/icons/hicolor/128x128/apps
 
 icon256.files += icons/256x256/harbour-acid-pass.png
 icon256.path = /usr/share/icons/hicolor/256x256/apps
+
+translations.files = translations
+translations.path = $${DEPLOYMENT_PATH}
 
 INSTALLS += icon86 icon108 icon128 icon256 script iconeye
 

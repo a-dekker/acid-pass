@@ -4,27 +4,27 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="21"/>
+        <location filename="../qml/pages/About.qml" line="23"/>
         <source>About</source>
         <translation>O aplikaci</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="24"/>
+        <location filename="../qml/pages/About.qml" line="26"/>
         <source>Info</source>
         <translation>Informace</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="43"/>
+        <location filename="../qml/pages/About.qml" line="45"/>
         <source>Version</source>
         <translation>Verze</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="48"/>
+        <location filename="../qml/pages/About.qml" line="50"/>
         <source>Shows stored Wi-Fi related passwords</source>
         <translation>Zobrazuje uložená hesla k Wi-Fi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="57"/>
+        <location filename="../qml/pages/About.qml" line="59"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
@@ -75,32 +75,37 @@
 <context>
     <name>PasswordPage</name>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="36"/>
-        <source>Save</source>
-        <translation>Uložit</translation>
+        <location filename="../qml/pages/PasswordPage.qml" line="49"/>
+        <source>About</source>
+        <translation type="unfinished">O aplikaci</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="37"/>
-        <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <location filename="../qml/pages/PasswordPage.qml" line="65"/>
+        <source>Acid-pass</source>
+        <translation type="unfinished">Acid-pass</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="45"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Enter your 4 digit access code</source>
         <translation>Vložte svůj čtyřmístný přístupový kód</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="45"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Set a new 4 digit access code</source>
         <translation>Nastavte nový čtyřmístný přístupový kód</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="59"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="87"/>
         <source>Enter access code</source>
         <translation>Vložte přístupový kód</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="71"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="101"/>
+        <source>Invalid access code!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PasswordPage.qml" line="104"/>
         <source>Your access code</source>
         <translation>Váš přístupový kód</translation>
     </message>
