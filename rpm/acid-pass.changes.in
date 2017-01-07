@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sat Jan 07 2017 Arno Dekker <jack.tar@example.com> 0.0.1-10
+- Disable hide all/show all when appropriate
+- Rotate thumbnail on small screens
 * Sat Aug 13 2016 Arno Dekker <jack.tar@example.com> 0.0.1-9
 - Improved login page
 * Thu Mar 17 2016 Arno Dekker <jack.tar@example.com> 0.0.1-8

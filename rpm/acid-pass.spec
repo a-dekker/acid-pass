@@ -14,7 +14,7 @@ Name:       harbour-acid-pass
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Shows stored WiFi passwords
 Version:    0.1
-Release:    9
+Release:    10
 Group:      Qt/Qt
 License:    LICENSE
 URL:        https://github.com/a-dekker/acid-pass

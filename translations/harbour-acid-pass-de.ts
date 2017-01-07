@@ -32,44 +32,44 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="58"/>
+        <location filename="../qml/pages/MainPage.qml" line="81"/>
         <source>Wrong code!</source>
-        <translation>Falscher Code!</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="84"/>
+        <location filename="../qml/pages/MainPage.qml" line="107"/>
         <source>About</source>
-        <translation>Über</translation>
+        <translation type="unfinished">Über</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="88"/>
+        <location filename="../qml/pages/MainPage.qml" line="111"/>
         <source>Change access code</source>
-        <translation>Zugangscode ändern</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="99"/>
+        <location filename="../qml/pages/MainPage.qml" line="122"/>
         <source>Hide all passwords</source>
-        <translation>Alle Passwörter verstecken</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="105"/>
+        <location filename="../qml/pages/MainPage.qml" line="129"/>
         <source>Show all passwords</source>
-        <translation>Alle Passwörter anzeigen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="113"/>
+        <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>Acid-pass</source>
-        <translation>Acid-pass</translation>
+        <translation type="unfinished">Acid-pass</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="124"/>
+        <location filename="../qml/pages/MainPage.qml" line="149"/>
         <source>No stored WiFi connections found</source>
-        <translation>Keine gesicherten Wlan Verbindungen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="190"/>
+        <location filename="../qml/pages/MainPage.qml" line="220"/>
         <source>Copy password to clipboard</source>
-        <translation>Passwort in den Zwichenspeicher kopieren</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

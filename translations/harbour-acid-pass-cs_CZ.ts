@@ -32,42 +32,42 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="58"/>
+        <location filename="../qml/pages/MainPage.qml" line="81"/>
         <source>Wrong code!</source>
         <translation>Špatný kód!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="84"/>
+        <location filename="../qml/pages/MainPage.qml" line="107"/>
         <source>About</source>
         <translation>O aplikaci</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="88"/>
+        <location filename="../qml/pages/MainPage.qml" line="111"/>
         <source>Change access code</source>
         <translation>Změnit přístupový kód</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="99"/>
+        <location filename="../qml/pages/MainPage.qml" line="122"/>
         <source>Hide all passwords</source>
         <translation>Skrýt všechna hesla</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="105"/>
+        <location filename="../qml/pages/MainPage.qml" line="129"/>
         <source>Show all passwords</source>
         <translation>Zobrazit všechna hesla</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="113"/>
+        <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>Acid-pass</source>
         <translation>Acid-pass</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="124"/>
+        <location filename="../qml/pages/MainPage.qml" line="149"/>
         <source>No stored WiFi connections found</source>
         <translation>Nenalezena žádná uložená WiFi připojení</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="190"/>
+        <location filename="../qml/pages/MainPage.qml" line="220"/>
         <source>Copy password to clipboard</source>
         <translation>Zkopírovat heslo do schránky</translation>
     </message>

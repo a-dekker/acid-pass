@@ -32,42 +32,42 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="58"/>
+        <location filename="../qml/pages/MainPage.qml" line="81"/>
         <source>Wrong code!</source>
         <translation>Fel kod!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="84"/>
+        <location filename="../qml/pages/MainPage.qml" line="107"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="88"/>
+        <location filename="../qml/pages/MainPage.qml" line="111"/>
         <source>Change access code</source>
         <translation>Byt åtkomstkod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="99"/>
+        <location filename="../qml/pages/MainPage.qml" line="122"/>
         <source>Hide all passwords</source>
         <translation>Dölj alla lösenord</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="105"/>
+        <location filename="../qml/pages/MainPage.qml" line="129"/>
         <source>Show all passwords</source>
         <translation>Visa alla lösenord</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="113"/>
+        <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>Acid-pass</source>
         <translation>Acid-lösen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="124"/>
+        <location filename="../qml/pages/MainPage.qml" line="149"/>
         <source>No stored WiFi connections found</source>
         <translation>Inga lagrade WiFi-anslutningar hittades</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="190"/>
+        <location filename="../qml/pages/MainPage.qml" line="220"/>
         <source>Copy password to clipboard</source>
         <translation>Kopiera lösenordet till urklipp</translation>
     </message>

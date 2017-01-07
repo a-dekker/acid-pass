@@ -32,42 +32,42 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="58"/>
+        <location filename="../qml/pages/MainPage.qml" line="81"/>
         <source>Wrong code!</source>
         <translation>Verkeerde code!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="84"/>
+        <location filename="../qml/pages/MainPage.qml" line="107"/>
         <source>About</source>
         <translation>Over</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="88"/>
+        <location filename="../qml/pages/MainPage.qml" line="111"/>
         <source>Change access code</source>
         <translation>Verander toegangscode</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="99"/>
+        <location filename="../qml/pages/MainPage.qml" line="122"/>
         <source>Hide all passwords</source>
         <translation>Verberg alle wachtwoorden</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="105"/>
+        <location filename="../qml/pages/MainPage.qml" line="129"/>
         <source>Show all passwords</source>
         <translation>Toon alle wachtwoorden</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="113"/>
+        <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>Acid-pass</source>
         <translation>Acid-pass</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="124"/>
+        <location filename="../qml/pages/MainPage.qml" line="149"/>
         <source>No stored WiFi connections found</source>
         <translation>Geen opgeslagen WiFi verbindingen gevonden</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="190"/>
+        <location filename="../qml/pages/MainPage.qml" line="220"/>
         <source>Copy password to clipboard</source>
         <translation>Kopieer wachtwoord naar klembord</translation>
     </message>
@@ -77,12 +77,12 @@
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="49"/>
         <source>About</source>
-        <translation type="unfinished">Over</translation>
+        <translation>Over</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="65"/>
         <source>Acid-pass</source>
-        <translation type="unfinished">Acid-pass</translation>
+        <translation>Acid-pass</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="73"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="101"/>
         <source>Invalid access code!</source>
-        <translation type="unfinished"></translation>
+        <translation>Foute toegangscode!</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="104"/>

@@ -19,6 +19,8 @@ Page {
     property string ssid_name
     property string ssid_pass
     property int echo_mode
+    property bool allHidden: true
+    property bool allVisible: false
 
     function loadPass() {
         var myElement
@@ -40,6 +42,8 @@ Page {
                                   echo_mode: 2
                               })
         }
+        allHidden = true
+        allVisible = false
     }
 
     function showAll() {
@@ -48,6 +52,25 @@ Page {
                                   echo_mode: 0
                               })
         }
+        allHidden = false
+        allVisible = true
+    }
+
+    function checkVisible() {
+        var seenVisible = false
+        var seenHidden = false
+        for (var i = listPassModel.count - 1; i >= 0; i--) {
+            switch (listPassModel.get(i).echo_mode) {
+            case 0:
+                seenVisible = true
+                break
+            case 2:
+                seenHidden = true
+                break
+            }
+        }
+        allHidden = !seenVisible
+        allVisible = !seenHidden
     }
 
     onStatusChanged: {
@@ -98,14 +121,16 @@ Page {
                 MenuItem {
                     text: qsTr("Hide all passwords")
                     onClicked: hideAll()
-                    enabled: Qt.atob(myset.value(
-                                         "access_code")) === mainapp.password
+                    enabled: !allHidden && Qt.atob(
+                                 myset.value(
+                                     "access_code")) === mainapp.password
                 }
                 MenuItem {
                     text: qsTr("Show all passwords")
                     onClicked: showAll()
-                    enabled: Qt.atob(myset.value(
-                                         "access_code")) === mainapp.password
+                    enabled: !allVisible && Qt.atob(
+                                 myset.value(
+                                     "access_code")) === mainapp.password
                 }
             }
             header: PageHeader {
@@ -153,15 +178,20 @@ Page {
                     icon.source: echo_mode === 2 ? "image://theme/icon-m-remote-security" : "image://theme/icon-m-wlan-hotspot"
                     onClicked: {
                         if (echo_mode === 2) {
+                            // make visible
                             listPassModel.set(index, {
                                                   echo_mode: 0
                                               })
+                            checkVisible()
                         } else {
+                            // hide
                             listPassModel.set(index, {
                                                   echo_mode: 2
                                               })
+                            checkVisible()
                         }
                     }
+                    opacity: listPassItem.highlighted ? 0.5 : 1.0
                 }
 
                 Label {
@@ -199,10 +229,12 @@ Page {
                         listPassModel.set(index, {
                                               echo_mode: 0
                                           })
+                        checkVisible()
                     } else {
                         listPassModel.set(index, {
                                               echo_mode: 2
                                           })
+                        checkVisible()
                     }
                 }
             }
