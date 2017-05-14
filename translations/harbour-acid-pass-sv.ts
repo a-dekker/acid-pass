@@ -102,7 +102,7 @@
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="101"/>
         <source>Invalid access code!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltig åtkomstkod!</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="104"/>
