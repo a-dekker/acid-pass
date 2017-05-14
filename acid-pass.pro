@@ -30,7 +30,6 @@ OTHER_FILES += qml/acid-pass.qml \
     icons/eye-open.png \
     icons/eye-close.png \
     helper/acid-passhelper.sh \
-    rpm/acid-pass.spec
 
 INSTALLS += translations
 
@@ -38,6 +37,7 @@ TRANSLATIONS = translations/harbour-acid-pass-sv.ts \
                translations/harbour-acid-pass-ru.ts \
                translations/harbour-acid-pass-nl.ts \
                translations/harbour-acid-pass-de.ts \
+               translations/harbour-acid-pass-es.ts \
                translations/harbour-acid-pass-cs_CZ.ts
 
 # only include these files for translation:

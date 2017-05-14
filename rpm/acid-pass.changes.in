@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun May 14 2017 Arno Dekker <jack.tar@example.com> 0.0.1-11
+- Added Spanish translation
 * Sat Jan 07 2017 Arno Dekker <jack.tar@example.com> 0.0.1-10
 - Disable hide all/show all when appropriate
 - Rotate thumbnail on small screens
