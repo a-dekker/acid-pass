@@ -44,7 +44,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="111"/>
         <source>Change access code</source>
-        <translation>Cambiar código de acceso</translation>
+        <translation>Cambiar contraseña</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="122"/>
@@ -92,22 +92,22 @@
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Set a new 4 digit access code</source>
-        <translation>Crear nuevo código de acceso</translation>
+        <translation>Crear nueva contraseña</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="87"/>
         <source>Enter access code</source>
-        <translation>Introducir contraseña</translation>
+        <translation>Escribir contraseña</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="101"/>
         <source>Invalid access code!</source>
-        <translation>Código de acceso invalido!</translation>
+        <translation>contraseña invalida!</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="104"/>
         <source>Your access code</source>
-        <translation>Su código de acceso</translation>
+        <translation>Su contraseña</translation>
     </message>
 </context>
 </TS>
