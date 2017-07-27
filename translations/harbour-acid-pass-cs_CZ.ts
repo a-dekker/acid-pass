@@ -67,7 +67,7 @@
         <translation>Nenalezena žádná uložená WiFi připojení</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="220"/>
+        <location filename="../qml/pages/MainPage.qml" line="221"/>
         <source>Copy password to clipboard</source>
         <translation>Zkopírovat heslo do schránky</translation>
     </message>

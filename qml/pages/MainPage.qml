@@ -199,18 +199,19 @@ Page {
                     anchors.left: hotspotIcon.right
                     text: ssid_name
                     font.pixelSize: Theme.fontSizeMedium
+                    width: parent.width - hotspotIcon.width
                     truncationMode: TruncationMode.Fade
                 }
                 TextField {
                     id: passLabel
                     text: ssid_pass
                     font.family: 'monospace'
-                    x: hotspotIcon.width - Theme.paddingLarge // align with ssid name
                     anchors.top: nameLabel.bottom
                     font.pixelSize: Theme.fontSizeSmall
                     echoMode: echo_mode === 0 ? TextInput.Normal : TextInput.Password
                     enabled: false
                     readOnly: true
+                    textMargin: nameLabel.x
                     color: Theme.highlightColor
                 }
                 Component {
