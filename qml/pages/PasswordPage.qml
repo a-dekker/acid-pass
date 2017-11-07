@@ -5,8 +5,6 @@ import org.nemomobile.notifications 1.0
 
 Page {
     id: passwordPage
-    allowedOrientations: Orientation.Portrait | Orientation.Landscape
-    | Orientation.LandscapeInverted
 
     MySettings {
         id: myset

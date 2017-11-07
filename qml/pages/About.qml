@@ -3,10 +3,8 @@ import Sailfish.Silica 1.0
 
 Page {
     id: aboutPage
-    allowedOrientations: Orientation.Portrait | Orientation.Landscape
-                         | Orientation.LandscapeInverted
-    property bool largeScreen: Screen.sizeCategory === Screen.Large
-                               || Screen.sizeCategory === Screen.ExtraLarge
+    property bool largeScreen: Screen.width > 540
+
     SilicaFlickable {
         anchors.fill: parent
         contentWidth: parent.width
@@ -24,7 +22,7 @@ Page {
             }
             SectionHeader {
                 text: qsTr("Info")
-                visible: isPortrait || largeScreen
+                visible: isPortrait || (largeScreen && Screen.width > 1080)
             }
             Separator {
                 color: Theme.primaryColor
@@ -57,7 +55,7 @@ Page {
             }
             SectionHeader {
                 text: qsTr("Author")
-                visible: isPortrait || largeScreen
+                visible: isPortrait || (largeScreen && Screen.width > 1080)
             }
             Separator {
                 color: Theme.primaryColor

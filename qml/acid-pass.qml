@@ -42,5 +42,10 @@ ApplicationWindow
     property bool fromPasswordPage: false
     property bool resetCode: false
 
+    allowedOrientations: Orientation.Portrait | Orientation.Landscape
+                         | Orientation.LandscapeInverted
+    _defaultPageOrientations: Orientation.Portrait | Orientation.Landscape
+    | Orientation.LandscapeInverted
+
     Component.onCompleted: pageStack.push(Qt.resolvedUrl("pages/PasswordPage.qml"))
 }

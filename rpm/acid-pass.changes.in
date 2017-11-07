@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Tue Nov 07 2017 Arno Dekker <jack.tar@example.com> 0.0.1-14
+- Minor improvements
 * Thu Jul 27 2017 Arno Dekker <jack.tar@example.com> 0.0.1-13
 - Fixed alignment for tablet on main screen
 * Mon May 15 2017 Arno Dekker <jack.tar@example.com> 0.0.1-12

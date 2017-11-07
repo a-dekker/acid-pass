@@ -5,8 +5,6 @@ import harbour.acidpass.Settings 1.0
 
 Page {
     id: page
-    allowedOrientations: Orientation.Portrait | Orientation.Landscape
-                         | Orientation.LandscapeInverted
 
     App {
         id: bar
