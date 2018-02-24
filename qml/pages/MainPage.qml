@@ -14,6 +14,10 @@ Page {
         id: myset
     }
 
+    Timer {
+        id: timer
+    }
+
     property string ssid_name
     property string ssid_pass
     property int echo_mode
@@ -71,6 +75,13 @@ Page {
         allVisible = !seenHidden
     }
 
+    function clearClipboard() {
+        delay(60000, function() {
+            Clipboard.text = ""
+            console.log("Clipboard cleared")
+        })
+    }
+
     onStatusChanged: {
         if (status === PageStatus.Activating && mainapp.fromPasswordPage) {
             if (Qt.atob(myset.value("access_code")) === mainapp.password) {
@@ -89,6 +100,13 @@ Page {
                                  ssid_pass: ssid_pass,
                                  echo_mode: echo_mode
                              })
+    }
+
+    function delay(delayTime, callback) {
+        timer.interval = delayTime
+        timer.repeat = false
+        timer.triggered.connect(callback)
+        timer.start()
     }
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
@@ -214,11 +232,14 @@ Page {
                 }
                 Component {
                     id: contextMenu
+
                     ContextMenu {
                         MenuItem {
                             text: qsTr("Copy password to clipboard")
                             onClicked: {
                                 Clipboard.text = ssid_pass
+                                // 60 secs delayed cleaning of clipboard
+                                clearClipboard()
                             }
                         }
                     }

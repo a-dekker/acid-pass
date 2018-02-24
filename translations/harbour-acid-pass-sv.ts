@@ -32,42 +32,42 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="79"/>
+        <location filename="../qml/pages/MainPage.qml" line="90"/>
         <source>Wrong code!</source>
         <translation>Fel kod!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="105"/>
+        <location filename="../qml/pages/MainPage.qml" line="123"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="109"/>
+        <location filename="../qml/pages/MainPage.qml" line="127"/>
         <source>Change access code</source>
         <translation>Byt åtkomstkod</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="120"/>
+        <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>Hide all passwords</source>
         <translation>Dölj alla lösenord</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="127"/>
+        <location filename="../qml/pages/MainPage.qml" line="145"/>
         <source>Show all passwords</source>
         <translation>Visa alla lösenord</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="136"/>
+        <location filename="../qml/pages/MainPage.qml" line="154"/>
         <source>Acid-pass</source>
         <translation>Acid-lösen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="147"/>
+        <location filename="../qml/pages/MainPage.qml" line="165"/>
         <source>No stored WiFi connections found</source>
         <translation>Inga lagrade WiFi-anslutningar hittades</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="219"/>
+        <location filename="../qml/pages/MainPage.qml" line="238"/>
         <source>Copy password to clipboard</source>
         <translation>Kopiera lösenordet till urklipp</translation>
     </message>
