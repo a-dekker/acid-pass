@@ -8,7 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Tue Feb 24 2018 Arno Dekker <jack.tar@example.com> 0.0.1-15
+* Tue Feb 27 2018 Arno Dekker <jack.tar@example.com> 0.0.1-16
+- New icon by VanyCat
+* Sat Feb 24 2018 Arno Dekker <jack.tar@example.com> 0.0.1-15
 - Clear password from clipboard after 60 seconds when app is active
 * Tue Nov 07 2017 Arno Dekker <jack.tar@example.com> 0.0.1-14
 - Minor improvements
