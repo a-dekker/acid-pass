@@ -77,12 +77,12 @@
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="47"/>
         <source>About</source>
-        <translation type="unfinished">О программе</translation>
+        <translation>О программе</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="63"/>
         <source>Acid-pass</source>
-        <translation type="unfinished">Acid-pass</translation>
+        <translation>Acid-pass</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="71"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="99"/>
         <source>Invalid access code!</source>
-        <translation type="unfinished"></translation>
+        <translation>Неверный код доступа!</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="102"/>
