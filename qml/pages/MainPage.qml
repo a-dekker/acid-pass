@@ -41,7 +41,7 @@ Page {
     function hideAll() {
         for (var i = listPassModel.count - 1; i >= 0; i--) {
             listPassModel.set(i, {
-                                  echo_mode: 2
+                                  "echo_mode": 2
                               })
         }
         allHidden = true
@@ -51,7 +51,7 @@ Page {
     function showAll() {
         for (var i = listPassModel.count - 1; i >= 0; i--) {
             listPassModel.set(i, {
-                                  echo_mode: 0
+                                  "echo_mode": 0
                               })
         }
         allHidden = false
@@ -76,7 +76,7 @@ Page {
     }
 
     function clearClipboard() {
-        delay(60000, function() {
+        delay(60000, function () {
             Clipboard.text = ""
             console.log("Clipboard cleared")
         })
@@ -96,9 +96,9 @@ Page {
     // helper function to add lists to the list
     function appendList(ssid_name, ssid_pass, echo_mode) {
         listPassModel.append({
-                                 ssid_name: ssid_name,
-                                 ssid_pass: ssid_pass,
-                                 echo_mode: echo_mode
+                                 "ssid_name": ssid_name,
+                                 "ssid_pass": ssid_pass,
+                                 "echo_mode": echo_mode
                              })
     }
 
@@ -196,13 +196,13 @@ Page {
                         if (echo_mode === 2) {
                             // make visible
                             listPassModel.set(index, {
-                                                  echo_mode: 0
+                                                  "echo_mode": 0
                                               })
                             checkVisible()
                         } else {
                             // hide
                             listPassModel.set(index, {
-                                                  echo_mode: 2
+                                                  "echo_mode": 2
                                               })
                             checkVisible()
                         }
@@ -247,12 +247,12 @@ Page {
                 onClicked: {
                     if (echo_mode === 2) {
                         listPassModel.set(index, {
-                                              echo_mode: 0
+                                              "echo_mode": 0
                                           })
                         checkVisible()
                     } else {
                         listPassModel.set(index, {
-                                              echo_mode: 2
+                                              "echo_mode": 2
                                           })
                         checkVisible()
                     }

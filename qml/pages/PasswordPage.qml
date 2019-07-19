@@ -1,7 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.acidpass.Settings 1.0
-import org.nemomobile.notifications 1.0
+import Nemo.Notifications 1.0
 
 Page {
     id: passwordPage
@@ -27,7 +27,8 @@ Page {
     }
 
     function setPasswd() {
-        if ((!codeSet || mainapp.resetCode) && passwordField.text.length === 4) {
+        if ((!codeSet || mainapp.resetCode)
+                && passwordField.text.length === 4) {
             myset.setValue("access_code", Qt.btoa(passwordField.text))
         }
         mainapp.password = passwordField.text
@@ -68,7 +69,9 @@ Page {
                 anchors.right: parent.right
                 anchors.leftMargin: Theme.paddingLarge
                 anchors.rightMargin: Theme.paddingLarge
-                text: (codeSet && !mainapp.resetCode) ? qsTr("Enter your 4 digit access code") : qsTr("Set a new 4 digit access code")
+                text: (codeSet
+                       && !mainapp.resetCode) ? qsTr("Enter your 4 digit access code") : qsTr(
+                                                    "Set a new 4 digit access code")
                 wrapMode: Text.Wrap
             }
 
@@ -80,7 +83,8 @@ Page {
 
                 TextField {
                     id: passwordField
-                    font.family: text.trim().length > 0 ? 'monospace' : Theme.fontFamily
+                    font.family: text.trim(
+                                     ).length > 0 ? 'monospace' : Theme.fontFamily
                     width: parent.width - changePasswordFieldEchoMode.width
                     placeholderText: qsTr("Enter access code")
                     inputMethodHints: Qt.ImhDigitsOnly
@@ -92,7 +96,8 @@ Page {
                     EnterKey.text: "OK"
                     EnterKey.onClicked: {
                         setPasswd()
-                        if (Qt.atob(myset.value("access_code")) === mainapp.password) {
+                        if (Qt.atob(myset.value(
+                                        "access_code")) === mainapp.password) {
                             pageStack.pop()
                         } else {
                             passwordField.text = ""
@@ -113,7 +118,6 @@ Page {
                     icon.opacity: 0.6
                     onClicked: isHide = !isHide
                 }
-
             }
         }
     }

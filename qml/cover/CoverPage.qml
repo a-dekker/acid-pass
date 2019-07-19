@@ -1,3 +1,5 @@
+
+
 /*
   Copyright (C) 2013 Jolla Ltd.
   Contact: Thomas Perl <thomas.perl@jollamobile.com>
@@ -27,7 +29,6 @@
   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 
@@ -36,14 +37,18 @@ CoverBackground {
     property bool largeScreen: screen.width >= 1080
 
     RotationAnimation on rotation {
-        running: mainapp.orientation === Orientation.Landscape && active && Screen.sizeCategory < 2
+        running: mainapp.orientation === Orientation.Landscape && active
+                 && Screen.sizeCategory < 2
         duration: 1000
-        from: 90; to: 90
+        from: 90
+        to: 90
     }
     RotationAnimation on rotation {
-        running: mainapp.orientation === Orientation.Portrait && active && Screen.sizeCategory < 2
+        running: mainapp.orientation === Orientation.Portrait && active
+                 && Screen.sizeCategory < 2
         duration: 1000
-        from: 0; to: 0
+        from: 0
+        to: 0
     }
     property bool active: status === Cover.Active || Cover.Activating
 
@@ -59,8 +64,7 @@ CoverBackground {
         }
         Image {
             source: largeScreen ? "/usr/share/icons/hicolor/128x128/apps/harbour-acid-pass.png" : "/usr/share/icons/hicolor/86x86/apps/harbour-acid-pass.png"
-           anchors.horizontalCenter: parent.horizontalCenter
+            anchors.horizontalCenter: parent.horizontalCenter
         }
     }
 }
-

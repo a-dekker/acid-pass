@@ -1,3 +1,5 @@
+
+
 /*
   Copyright (C) 2013 Jolla Ltd.
   Contact: Thomas Perl <thomas.perl@jollamobile.com>
@@ -27,15 +29,16 @@
   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import "pages"
 
-ApplicationWindow
-{
+ApplicationWindow {
     id: mainapp
-    initialPage: Component { MainPage { } }
+    initialPage: Component {
+        MainPage {
+        }
+    }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
 
     property string password: ""
@@ -45,7 +48,8 @@ ApplicationWindow
     allowedOrientations: Orientation.Portrait | Orientation.Landscape
                          | Orientation.LandscapeInverted
     _defaultPageOrientations: Orientation.Portrait | Orientation.Landscape
-    | Orientation.LandscapeInverted
+                              | Orientation.LandscapeInverted
 
-    Component.onCompleted: pageStack.push(Qt.resolvedUrl("pages/PasswordPage.qml"))
+    Component.onCompleted: pageStack.push(Qt.resolvedUrl(
+                                              "pages/PasswordPage.qml"))
 }

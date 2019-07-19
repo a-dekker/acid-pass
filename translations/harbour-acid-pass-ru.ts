@@ -75,37 +75,37 @@
 <context>
     <name>PasswordPage</name>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="47"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="48"/>
         <source>About</source>
         <translation>О программе</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="63"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="64"/>
         <source>Acid-pass</source>
         <translation>Acid-pass</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="71"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Enter your 4 digit access code</source>
         <translation>Введите 4-х значный код доступа</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="71"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Set a new 4 digit access code</source>
         <translation>Введите новый 4-х значный код доступа</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="85"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="89"/>
         <source>Enter access code</source>
         <translation>Введите код доступа</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="99"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="104"/>
         <source>Invalid access code!</source>
         <translation>Неверный код доступа!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/PasswordPage.qml" line="102"/>
+        <location filename="../qml/pages/PasswordPage.qml" line="107"/>
         <source>Your access code</source>
         <translation>Ваш код доступа</translation>
     </message>
