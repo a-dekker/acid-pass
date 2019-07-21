@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Jul 21 2019 Arno Dekker <jack.tar@example.com> 0.0.2-1
+- Added Chinese translation (thanks dashinfantry)
+- Workaround to make pasword color highlighted again
 * Fri Jul 19 2019 Arno Dekker <jack.tar@example.com> 0.0.2-0
 - Adapted for 3.1.0.11 because of connman changes
 * Tue Feb 27 2018 Arno Dekker <jack.tar@example.com> 0.0.1-16

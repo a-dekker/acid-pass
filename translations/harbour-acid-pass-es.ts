@@ -67,7 +67,7 @@
         <translation>Sin claves Wi-Fi guardadas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="238"/>
+        <location filename="../qml/pages/MainPage.qml" line="250"/>
         <source>Copy password to clipboard</source>
         <translation>Copiar clave al portapapeles</translation>
     </message>

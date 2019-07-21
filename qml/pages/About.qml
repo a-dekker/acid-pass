@@ -64,7 +64,7 @@ Page {
                 horizontalAlignment: Qt.AlignHCenter
             }
             Label {
-                text: "© Arno Dekker 2015-2018"
+                text: "© Arno Dekker 2015-2019"
                 anchors.horizontalCenter: parent.horizontalCenter
             }
         }

@@ -67,7 +67,7 @@
         <translation>Geen opgeslagen WiFi verbindingen gevonden</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="238"/>
+        <location filename="../qml/pages/MainPage.qml" line="250"/>
         <source>Copy password to clipboard</source>
         <translation>Kopieer wachtwoord naar klembord</translation>
     </message>
