@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="fr_FR">
 <context>
@@ -44,7 +44,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="127"/>
         <source>Change access code</source>
-        <translation>Changer le code d'accès</translation>
+        <translation>Changer le code d&apos;accès</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="138"/>
@@ -87,27 +87,27 @@
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Enter your 4 digit access code</source>
-        <translation>Entrez le code d'accès en 4 chiffres</translation>
+        <translation>Entrez le code d&apos;accès en 4 chiffres</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="73"/>
         <source>Set a new 4 digit access code</source>
-        <translation>Définissez un nouveau code d'accès en 4 chiffres</translation>
+        <translation>Définissez un nouveau code d&apos;accès en 4 chiffres</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="89"/>
         <source>Enter access code</source>
-        <translation>Entrez le code d'accès</translation>
+        <translation>Entrez le code d&apos;accès</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="104"/>
         <source>Invalid access code!</source>
-        <translation>Code d'accès invalide</translation>
+        <translation>Code d&apos;accès invalide</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="107"/>
         <source>Your access code</source>
-        <translation>Votre code d'accès</translation>
+        <translation>Votre code d&apos;accès</translation>
     </message>
 </context>
 </TS>

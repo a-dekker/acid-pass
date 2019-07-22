@@ -39,7 +39,8 @@ TRANSLATIONS = translations/harbour-acid-pass-sv.ts \
                translations/harbour-acid-pass-de.ts \
                translations/harbour-acid-pass-es.ts \
                translations/harbour-acid-pass-cs_CZ.ts \
-               translations/harbour-acid-pass-zh_CN.ts
+               translations/harbour-acid-pass-zh_CN.ts \
+               translations/harbour-acid-pass-fr.ts
 
 # only include these files for translation:
 lupdate_only {
