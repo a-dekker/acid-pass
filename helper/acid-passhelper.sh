@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 if [ ! -t 1 ]; then
+    . /etc/sailfish-release
     MAIN_OS_VERSION=$(echo "${VERSION_ID}" | cut -c-3 | tr -d ".")
     if [ "${MAIN_OS_VERSION}" -lt 31 ]; then
         CONNMAN_PATH=""
