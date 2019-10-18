@@ -153,6 +153,10 @@ Page {
                 width: listPass.width
                 title: qsTr("Acid-pass")
             }
+            footer: Rectangle {
+                opacity: 0
+                height: Theme.paddingLarge
+            }
             VerticalScrollDecorator {
             }
             model: ListModel {

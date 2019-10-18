@@ -62,12 +62,12 @@
         <translation>Acid-pass</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="165"/>
+        <location filename="../qml/pages/MainPage.qml" line="169"/>
         <source>No stored WiFi connections found</source>
         <translation>Nenalezena žádná uložená WiFi připojení</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="250"/>
+        <location filename="../qml/pages/MainPage.qml" line="254"/>
         <source>Copy password to clipboard</source>
         <translation>Zkopírovat heslo do schránky</translation>
     </message>

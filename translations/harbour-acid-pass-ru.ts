@@ -62,12 +62,12 @@
         <translation>Acid-pass</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="165"/>
+        <location filename="../qml/pages/MainPage.qml" line="169"/>
         <source>No stored WiFi connections found</source>
         <translation>Не найдено сохраненных Wi-Fi подключений</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="250"/>
+        <location filename="../qml/pages/MainPage.qml" line="254"/>
         <source>Copy password to clipboard</source>
         <translation>Скопировать пароль в буфер обмена</translation>
     </message>
