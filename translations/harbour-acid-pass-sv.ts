@@ -77,12 +77,12 @@
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="48"/>
         <source>About</source>
-        <translation type="unfinished">Om</translation>
+        <translation>Om</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="64"/>
         <source>Acid-pass</source>
-        <translation type="unfinished">Acid-lösen</translation>
+        <translation>Acid-lösenord</translation>
     </message>
     <message>
         <location filename="../qml/pages/PasswordPage.qml" line="73"/>
