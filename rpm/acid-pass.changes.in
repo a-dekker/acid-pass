@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Tue Sep 29 2020 Arno Dekker <jack.tar@example.com> 0.0.2-5
+- Fix for SFOS 3.4
 * Fri Oct 18 2019 Arno Dekker <jack.tar@example.com> 0.0.2-4
 - Added small margin on bottom of list
 * Tue Jul 23 2019 Arno Dekker <jack.tar@example.com> 0.0.2-3
