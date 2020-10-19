@@ -8,7 +8,7 @@ if [ ! -t 1 ]; then
     elif [ "${MAIN_OS_VERSION}" -lt 34 ]; then
         CONNMAN_PATH="/home/.system/var/lib/connman"
     else
-        CONNMAN_PATH="/home/nemo/.local/share/system/privileged/connman"
+        CONNMAN_PATH="${HOME}/.local/share/system/privileged/connman"
     fi
     for FILE in "${CONNMAN_PATH}"/wifi*/settings; do
         NAME=$(grep "Name=" <"${FILE}" | sed "s/^Name=//g")
