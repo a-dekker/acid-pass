@@ -5,3 +5,5 @@ Name=Acid-pass
 Icon=harbour-acid-pass
 Exec=harbour-acid-pass
 
+[X-Sailjail]
+Sandboxing=Disabled
